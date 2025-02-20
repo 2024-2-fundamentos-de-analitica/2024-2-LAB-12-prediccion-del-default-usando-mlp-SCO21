@@ -15,7 +15,7 @@ MODEL_COMPONENTS = [
     "PCA",
     "StandardScaler",
     "SelectKBest",
-    "MLPClassifier",
+    "SVC",
 ]
 SCORES = [
     0.661,

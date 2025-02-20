@@ -57,11 +57,10 @@
 # contener las siguientes capas:
 # - Transforma las variables categoricas usando el método
 #   one-hot-encoding.
-# - Descompone la matriz de entrada usando componentes principales.
-#   El pca usa todas las componentes.
-# - Escala la matriz de entrada al intervalo [0, 1].
+# - Descompone la matriz de entrada usando PCA. El PCA usa todas las componentes.
+# - Estandariza la matriz de entrada.
 # - Selecciona las K columnas mas relevantes de la matrix de entrada.
-# - Ajusta una red neuronal tipo MLP.
+# - Ajusta una maquina de vectores de soporte (svm).
 #
 #
 # Paso 4.
